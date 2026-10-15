@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register • lichess.org</title>
+  <link rel="icon" type="image/png" href="lichess-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="#">
+      <div class="site-icon"><img class="logo-img" src="lichess-logo.png" alt=""></div>
+      <div class="site-name">lichess<span>.org</span></div>
+    </a>
+    <nav class="main-nav">
+      <div class="nav-item">
+        <a href="#">PLAY</a>
+        <div class="dropdown">
+          <a href="#">Create a game</a>
+          <a href="#">Play with a friend</a>
+          <a href="#">Play with the computer</a>
+          <a href="#">Tournaments</a>
+          <a href="#">Simultaneous exhibitions</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">PUZZLES</a>
+        <div class="dropdown">
+          <a href="#">Puzzles</a>
+          <a href="#">Puzzle Themes</a>
+          <a href="#">Puzzle Dashboard</a>
+          <a href="#">Puzzle Streak</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">LEARN</a>
+        <div class="dropdown">
+          <a href="#">Chess basics</a>
+          <a href="#">Practice</a>
+          <a href="#">Coordinates</a>
+          <a href="#">Study</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">WATCH</a>
+        <div class="dropdown">
+          <a href="#">Lichess TV</a>
+          <a href="#">Current games</a>
+          <a href="#">Streamers</a>
+          <a href="#">Broadcasts</a>
+          <a href="#">Video library</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">COMMUNITY</a>
+        <div class="dropdown">
+          <a href="#">Players</a>
+          <a href="#">Teams</a>
+          <a href="#">Forum</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">TOOLS</a>
+        <div class="dropdown">
+          <a href="#">Analysis board</a>
+          <a href="#">Opening explorer</a>
+          <a href="#">Board editor</a>
+          <a href="#">Import game</a>
+          <a href="#">Advanced search</a>
+        </div>
+      </div>
+      <a href="#" class="donate">&#128293; DONATE</a>
+    </nav>
+  </header>
+
+  <main class="login-wrap">
+    <div class="login-box">
+      <div class="tabs">
+        <a href="login.html" class="tab">Sign in</a>
+        <a href="register.html" class="tab active">Register</a>
+      </div>
+
+      <form class="login-form" action="#" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" autocomplete="off">
+        <small>Be sure to choose a username appropriate for all ages. You cannot change it later, and accounts with inappropriate usernames will be closed!</small>
+
+        <label for="password">Password</label>
+        <div class="password-field">
+          <input type="password" id="password" name="password">
+          <span class="eye">&#128065;</span>
+        </div>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" autocomplete="off">
+        <small>We will only send you emails about your account and never share your email.</small>
+
+        <p class="info-note">&#9432; Computers and computer-assisted players are not allowed to play. Please do not get assistance from chess engines, databases, or from other players while playing. Also note that making multiple accounts is strongly discouraged and excessive multi-accounting will lead to being banned.</p>
+        <p class="info-note">By registering, you agree to the <a href="#">Terms of Service</a>.<br>Read about our <a href="#">Privacy policy</a>.</p>
+
+        <label class="agree">
+          <input type="checkbox">
+          <span>I agree that I will at no time receive assistance during my games (from a chess computer, book, database or another person).</span>
+        </label>
+        <label class="agree">
+          <input type="checkbox">
+          <span>I agree that I will always be respectful to other players.</span>
+        </label>
+        <label class="agree">
+          <input type="checkbox">
+          <span>I agree that I will not create multiple accounts (except for the reasons stated in the <a href="#">Terms of Service</a>).</span>
+        </label>
+
+        <button type="submit" class="signin-btn">Register</button>
+
+        <p class="switch-note">Already have an account? <a href="login.html">Sign in</a></p>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

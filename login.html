@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in • lichess.org</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="#">
+      <div class="site-icon"><img class="logo-img" src="lichess-logo.png" alt=""></div>
+      <div class="site-name">lichess<span>.org</span></div>
+    </a>
+    <nav class="main-nav">
+      <div class="nav-item">
+        <a href="#">PLAY</a>
+        <div class="dropdown">
+          <a href="#">Create a game</a>
+          <a href="#">Play with a friend</a>
+          <a href="#">Play with the computer</a>
+          <a href="#">Tournaments</a>
+          <a href="#">Simultaneous exhibitions</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">PUZZLES</a>
+        <div class="dropdown">
+          <a href="#">Puzzles</a>
+          <a href="#">Puzzle Themes</a>
+          <a href="#">Puzzle Dashboard</a>
+          <a href="#">Puzzle Streak</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">LEARN</a>
+        <div class="dropdown">
+          <a href="#">Chess basics</a>
+          <a href="#">Practice</a>
+          <a href="#">Coordinates</a>
+          <a href="#">Study</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">WATCH</a>
+        <div class="dropdown">
+          <a href="#">Lichess TV</a>
+          <a href="#">Current games</a>
+          <a href="#">Streamers</a>
+          <a href="#">Broadcasts</a>
+          <a href="#">Video library</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">COMMUNITY</a>
+        <div class="dropdown">
+          <a href="#">Players</a>
+          <a href="#">Teams</a>
+          <a href="#">Forum</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">TOOLS</a>
+        <div class="dropdown">
+          <a href="#">Analysis board</a>
+          <a href="#">Opening explorer</a>
+          <a href="#">Board editor</a>
+          <a href="#">Import game</a>
+          <a href="#">Advanced search</a>
+        </div>
+      </div>
+      <a href="#" class="donate">&#128293; DONATE</a>
+    </nav>
+  </header>
+
+  <main class="login-wrap">
+    <div class="login-box">
+      <div class="tabs">
+        <a href="login.html" class="tab active">Sign in</a>
+        <a href="register.html" class="tab">Register</a>
+      </div>
+
+      <form class="login-form" action="#" method="post">
+        <label for="username">Username or email</label>
+        <input type="text" id="username" name="username" autocomplete="off">
+
+        <label for="password">Password</label>
+        <div class="password-field">
+          <input type="password" id="password" name="password">
+          <span class="eye">&#128065;</span>
+        </div>
+
+        <a href="#" class="pw-reset">Password reset</a>
+
+        <label class="keep">
+          <input type="checkbox" checked>
+          <span>Keep me logged in</span>
+        </label>
+
+        <button type="submit" class="signin-btn">Sign in</button>
+
+        <div class="or"><span>Or</span></div>
+
+        <a href="#" class="email-login">Log in by email</a>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
